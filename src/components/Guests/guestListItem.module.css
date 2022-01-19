@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+.text {
+  color: #c7c2c2;
+  font-size: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+.btn {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+  vertical-align: center;
+  background-color: white;
+  border: 2px solid #8a8a8a;
+  cursor: pointer;
+}
+.line {
+  width: 335px;
+  border-top: 1px #c7c2c2 solid;
+}
